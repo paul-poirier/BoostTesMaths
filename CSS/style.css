@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card-white.css");
+
+body {
+	background-color: #323232;
+	color: #AAAAAA;
+	font-family: "Lora", serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1,8;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+h1, h2, h3 {
+	font-family: "Roboto", serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: #AAAAAA;
+	font-size: 50px;
+	font-weight: 900;
+	font-style: normal;
+  	line-height: 1,8;
+	letter-spacing: 1px;
+}
+h2 {
+	color: #AAAAAA;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: normal;
+  	line-height: 1,8;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+div {
+	border-radius: 10px;
+	padding: 40px;
+	margin: 50px auto;
+}
+
+.container {
+	background-color: none;
+}
+
+.card-white {
+	background-color: #6E6E6E;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px;
+	text-align: left;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #AAAAAA;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: white;
+}
+
